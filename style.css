@@ -63,12 +63,14 @@ nav a:hover{
 
 .scroll_up{
     position: sticky;
-    top: 90vh
 }
 
 #href_home_up{
     position: sticky;
-    left: 90vw;
+    left: 85vw;
+    top: 85vh;
+    right: 5vw;
+    bottom: 5vh;
 }
 
 #scroll_up:hover{
