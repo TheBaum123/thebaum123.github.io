@@ -1,0 +1,86 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.social_media_links{
+    width: 100vw;
+    padding-top: 50vh;
+    padding-bottom: 50vh;
+    margin-bottom: -7.5vh;
+    margin-top: -7.5vh;
+    text-align: center;
+}
+
+.social_media_links ion-icon{
+    font-size: 15vh;
+    color: black;
+    text-align: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    transition: 1s;
+}
+
+.social_media_links ion-icon:hover{
+    filter: invert(0.5);
+}
+
+#scroll_down_button{
+    display: inline-block;
+    columns: black;
+}
+
+nav{
+    overflow: auto;
+    background-color: #333;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    position: sticky;
+    width: 100vw;
+    top: 1vh;
+}
+
+nav a{
+    text-decoration: none;
+    color: azure;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    font-size: 3vh;
+    transition: 1s;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+#scroll_up{
+    font-size: 10vh;
+    color: lightgray;
+    transition: 1s;
+}
+
+.scroll_up{
+    position: sticky;
+    top: 90vh
+}
+
+#href_home_up{
+    position: sticky;
+    left: 90vw;
+}
+
+#scroll_up:hover{
+    filter: invert(0.5);
+}
+
+#discord_invite{
+    height: 90vh;
+    width: 100vw;
+}
+
+#chatroom{
+    height: 90vh;
+    width: 100vw;
+}
