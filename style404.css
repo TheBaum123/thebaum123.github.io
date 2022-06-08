@@ -1,0 +1,11 @@
+body{
+  height: 95vh;
+  width: 95vw;
+}
+
+#text{
+  text-align: center;
+  font-size: 25vh;
+  margin-top: -25vh;
+  padding-top: 50vh;
+}
